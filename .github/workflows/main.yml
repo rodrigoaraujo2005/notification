@@ -9,7 +9,7 @@ env:
   AWS_ROLE_ARN: arn:aws:iam::774305594396:role/github_role
   ECR_REPOSITORY: loja-virtual-notification-service
   EKS_CLUSTER: eks-loja-virtual-dev
-  NAMESPACE: notification-service
+  NAMESPACE: default
 
 jobs:
   deploy:
