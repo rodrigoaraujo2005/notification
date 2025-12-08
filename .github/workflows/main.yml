@@ -7,9 +7,9 @@ on:
 env:
   AWS_REGION: us-east-1
   AWS_ROLE_ARN: arn:aws:iam::774305594396:role/github_role
-  ECR_REPOSITORY: meu-backend
-  EKS_CLUSTER: meu-eks
-  NAMESPACE: default
+  ECR_REPOSITORY: loja-virtual-notification-service
+  EKS_CLUSTER: eks-loja-virtual-dev
+  NAMESPACE: notification-service
 
 jobs:
   deploy:
