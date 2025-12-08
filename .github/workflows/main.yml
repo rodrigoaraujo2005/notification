@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  AWS_ROLE_ARN: arn:aws:iam::<AWS_ACCOUNT_ID>:role/github-eks-role
+  AWS_ROLE_ARN: arn:aws:iam::774305594396:role/github_role
   ECR_REPOSITORY: meu-backend
   EKS_CLUSTER: meu-eks
   NAMESPACE: default
