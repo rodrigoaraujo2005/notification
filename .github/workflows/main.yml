@@ -57,7 +57,8 @@ jobs:
         run: |
           aws eks update-kubeconfig \
             --region $AWS_REGION \
-            --name $EKS_CLUSTER
+            --name $EKS_CLUSTER \
+            --role-arn arn:aws:iam::774305594396:role/github_role
 
       - name: Update deployment
         run: |
